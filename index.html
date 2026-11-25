@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#254C3A" />
+    <meta name="color-scheme" content="light" />
+    <title>رؤى الطبيعة ROA NATURE | عناية نباتية مستوحاة من الغابة</title>
+    <meta
+      name="description"
+      content="رؤى الطبيعة ROA NATURE — تجربة عناية نباتية داخل غابة هادئة. اكتشف زيت الجوجوبا، جل الصبار، شامبو الأعشاب العشرة، سيروم اللبان، وزيت اللوز الحلو. Discover the Beauty of Nature."
+    />
+    <meta name="keywords" content="رؤى الطبيعة, ROA NATURE, عناية نباتية, زيت الجوجوبا, جل الصبار, شامبو الأعشاب, سيروم اللبان, زيت اللوز الحلو, Saudi Arabia" />
+    <link rel="icon" type="image/png" href="./brand/favicon.png" />
+    <link rel="apple-touch-icon" href="./brand/favicon.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ROA NATURE | رؤى الطبيعة" />
+    <meta property="og:title" content="ROA NATURE | رؤى الطبيعة — Discover the Beauty of Nature" />
+    <meta
+      property="og:description"
+      content="A journey through nature's treasures. Five botanical stations, discovered one by one inside a quiet forest."
+    />
+    <meta property="og:image" content="./images/hero.webp" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ROA NATURE | رؤى الطبيعة" />
+    <meta name="twitter:description" content="Discover the Beauty of Nature." />
+    <meta name="twitter:image" content="./images/hero.webp" />
+
+    <link rel="preload" as="image" href="./images/hero.webp" fetchpriority="high" />
+    <script>
+      // Set the language before paint to avoid a right-to-left flash.
+      try {
+        var saved = localStorage.getItem('roa-lang');
+        var lang = saved === 'en' ? 'en' : 'ar';
+        document.documentElement.lang = lang;
+        document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+      } catch (e) {}
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "ROA NATURE",
+        "alternateName": "رؤى الطبيعة",
+        "description": "A botanical beauty and personal care brand inspired by the quiet of the forest.",
+        "telephone": "+966512345678",
+        "areaServed": "SA",
+        "sameAs": []
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div style="min-height:100vh;display:grid;place-items:center;background:#F8F7F1;color:#254C3A;font-family:serif;padding:24px;text-align:center">
+        <p>يتطلب هذا الموقع تفعيل جافاسكريبت لتجربة الرحلة والشراء. — ROA NATURE</p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
